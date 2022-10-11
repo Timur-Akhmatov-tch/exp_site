@@ -1,0 +1,263 @@
+body{
+    background-color: #272727;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    padding: 0;
+    max-width: 1024;
+    width: 80%;
+    /* background-color: gray; */
+    margin: 0 auto;
+    
+}
+
+.logo {
+    margin: 10px 30px;
+}
+
+.nav{
+    /* margin: 5px; */
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid white;
+}
+
+.homepage a{
+    text-transform: uppercase;
+    margin-left: 20px;
+    font-family: 'Anton', sans-serif;
+    /* font-weight: bold; */
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+}
+
+ul, li {
+    display: block;
+}
+
+.menu a{
+    text-transform: uppercase;
+    margin-left: 30px;
+    font-family: 'Anton', sans-serif;
+    /* font-weight: bold; */
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    opacity: 70%;
+}
+
+.menu a:hover{
+    opacity: 100%;
+    border-bottom: 1px solid white;
+}
+.menu{
+    display: flex;
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.losung{
+    margin-left: 25%;
+}
+
+.loc {
+    display: flex;
+}
+
+.model img{
+    height: 600px;
+    /* padding-left: 200px; */
+    margin-top: 80px;
+    /* margin-left: 50px; */
+}
+
+.modelname{
+    height: 350px;
+    width: 500px;
+    border-left: 3px solid white;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.modelname h1{
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.modelname p{
+    margin-left: 20px;
+    max-width: 400px;
+}
+.modelname a:hover {
+    border-bottom: 1px solid white;
+}
+
+/* .nextb a {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: white;
+} */
+
+.transition-fade {
+    transition: 0.4s;
+    opacity: 1;
+}
+  
+html.is-animating .transition-fade {
+    opacity: 0;
+}
+
+.model a{
+    display: inline-block;
+    background: #525e68;
+    color: #fff;
+    padding: 12px 12px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+.subnav {
+    display: flex;
+    
+}
+.next {
+    margin-left: auto;
+}
+
+.next:hover{
+    background: #8695a1;
+    border-bottom: 2px solid white;
+    padding: 11px 12px;
+}
+
+.prev:hover{
+    background: #8695a1;
+    border-bottom: 2px solid white;
+    padding: 11px 12px;
+}
+
+.footer{
+    margin-top: 20px;
+    border-top: 3px solid white;
+}
+
+.model{
+    max-height: 750px;
+    height: 100%;
+}
+
+.description{
+    max-width: 800px;
+    height: 20px;
+}
+
+.linefooter{
+    display: flex;
+    height: 100px;
+    
+}
+
+.vklogo{
+    width: 40px;
+    height: 40px;
+}
+
+.inlogo{
+    width: 40px;
+    height: 40px;
+}
+
+.tglogo{
+    width: 40px;
+    height: 40px;
+}
+
+.socnet{
+    margin-top: auto;
+}
+.tg, .in, .vk{
+    margin-left: 20px;
+}
+
+.desc2{
+    margin-left: auto;
+}
+
+.aboutintro{
+    height: 725px;
+}
+
+.nameab h1{
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 48px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+}
+
+.nameab p{
+    margin-left: 20px;
+    max-width: 400px;
+}
+
+.nameab a:hover {
+    border-bottom: 1px solid white;
+}
+
+.shopintro{
+    height: 725px;
+}
+
+.offer p{
+    margin-left: 50px;
+}
+
+.offer a:hover{
+    border-bottom: 1px solid white;
+}
+
+.cartinfo h1{
+    margin-left: 20px;
+}
+
+.offerimg{
+    width: 150px;
+    height: 100px;
+}
+
+.offerbord{
+    width: 400px;
+    margin-top: 30px;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
